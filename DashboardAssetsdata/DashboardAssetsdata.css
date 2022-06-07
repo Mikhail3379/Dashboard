@@ -1,0 +1,485 @@
+body {
+  /* overflow: hidden; */
+  color: white;
+}
+.DashboardAssetsdataPage .pageNavigationContent {
+    padding-top: 50px;
+}
+
+.DashboardAssetsdataPage .pageNavigationButtons.row {
+    margin: 0;
+}
+
+.DashboardAssetsdataPage .navigationButtonContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.DashboardAssetsdataPage .navigationButtonContent::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: #8958c8;
+    transition: width 0.5s ease;
+    width: 0;
+}
+
+.DashboardAssetsdataPage .navigationButtonContent.active::after {
+    width: 100%;
+    /* transition: unset !important; */
+}
+
+.DashboardAssetsdataPage .navigationButtonImage {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.DashboardAssetsdataPage .navigationButtonLabel {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.DashboardAssetsdataPage .PortofolioHome .topPortfolio {
+    display: block;
+        
+}
+
+.DashboardAssetsdataPage .PortofolioHome .topPortfolio .headerPortfolioDetailsPage {
+    
+    justify-content: center;
+    display: flex;
+}
+
+.DashboardAssetsdataPage .btn-ramp {
+    margin-top: 15px;
+    width: 200px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 7px 25px;
+    color: white;
+    font-size: 16px;
+}
+
+.DashboardAssetsdataPage .btn2{
+    display: block;
+    margin: 0 auto;
+    background-color: #19d79a;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+}    
+#div-btn {
+    margin: 150px 0 !important;
+} 
+.DashboardAssetsdataPage .noDataMessage {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+  }
+  #div-btn .noDataMessage{
+    margin: 0;
+  }
+
+
+  .DashboardAssetsdataPage  .loadingAmountImage{
+        width:20px;
+        font-size: medium;
+        color: rgb(222, 213, 213) !important;
+    }
+    
+
+    .DashboardAssetsdataPage  .actionHead{
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    .DashboardAssetsdataPage .hlabel{
+ margin-top: -37px;
+ margin-left: 208px !important;
+}
+
+
+.DashboardAssetsdataPage .hAmount{
+  margin-left: 5px;
+  color: #7efbc1 !important;
+  margin-top: -37px;
+ }
+
+.DashboardAssetsdataPage .divAmount{
+  margin-bottom: -18px;
+  margin-top: -65px;
+  position: absolute;
+  bottom: 15px;
+  left: 25%;
+}
+
+.DashboardAssetsdataPage .labelAmountLoading{
+    margin-left: 5px;
+    color: #7efbc1 !important;
+    margin-top: -50px;
+
+  }
+
+  #dashboardTable {
+    background: #202024;
+    border-bottom: 1px solid white;
+  }
+  #dashboardTable .container-fluid {
+    background: #202024;
+  }
+  #dashboardTable .nav-item {
+    background: #202024;
+    margin-right: 100px;
+    /* width: 100%; */
+    display: flex;
+    
+  }
+
+  #dashboardTable .nav-link {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background: #202024;
+    width: 150px;
+  }
+  /* .overview {
+    margin-left: 30px;
+  } */
+  .overview-content {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 400px;
+  }
+  p {
+    color: white;
+    padding-left: 5%;
+    margin-bottom: 10px;
+   
+  }
+  h3 {
+    display: inline-block;
+  }
+  .portfolio-list {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .NavbarComponent {
+    margin: 32px 0 60px;
+}
+.PortofolioHome .topPortfolio .actionHead {
+  display: none;
+  
+}
+
+.DashboardAssetsdataPage .btn2 {
+  display: inline-table;
+  margin: -60px 40px;
+  background: linear-gradient(270.87deg, #4500FF 0%, #38FFBD 100%);
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.btnView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  width: 200px;
+}
+
+.btnManage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: white;
+  background: #202024;
+  width: 200px;
+}
+
+.options {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+  width: 30%;
+  
+  
+}
+
+.option1 {
+  color: white;
+  background: #202024;
+  width: 200px;
+  margin-left: 5%;
+}
+
+.chart {
+  display: inline-block;
+  width: 60%;
+  margin-left: 450px;
+  margin-top: -100px;
+}
+
+.navbarS {
+  /* position: relative; */
+  /* display: -ms-flexbox; */
+  /* display: inline-block; */
+  /* -ms-flex-wrap: wrap;
+  flex-wrap: wrap; */
+  -ms-flex-align: center;
+  align-items: end;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 150px;
+  height: 0;
+  margin-left: 600px;
+  margin-top: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.over {
+  width: 40%;
+  display: inline-block;
+}
+
+.this {
+  display: inline-block;
+  width: 60%;
+}
+/* .nav {
+display: -ms-flexbox;
+display: inline-block;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+padding-left: 0;
+margin-left: 200px;
+margin-bottom: 0;
+margin-top: -50px;
+list-style: none;
+width: 50%;
+
+} */
+
+.container {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+
+
+.line {
+  
+  /* height: 100px; */
+  display:inline-block;
+  margin-top: 0;
+  margin-left: 250px;
+  width: 20%;
+  
+}
+
+.tabs {
+  display: inline-block;
+  padding: 0px;
+  /* margin-left: 30px; */
+  width: 100%;
+  list-style: none; 
+  background: #202024;
+  border-bottom: 1px solid white;
+}
+
+.tab {
+  display: inline-block;
+  margin-right: 150px;
+  margin-left: 20px;
+  background: #202024;
+  border-bottom: 3px solid transparent;
+}
+
+.tab :hover {
+  border-bottom: 3px solid white;
+}
+.tab :active {
+  border-bottom: 3px solid white;
+}
+.btnTab {
+  color: white;
+  background: #202024;
+}
+
+.btnSearch {
+  height: 50px;
+  color: white;
+  background: #202024;
+ 
+  
+}
+
+#glass {
+  height: 30px;
+  color: white;
+  display: inline-block;
+}
+
+.search1 {
+  display: inline-block;
+  height: 30px;
+  width: 120px;
+  color: white;
+  background: #202024;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+th {
+  background: #202024;
+  
+}
+.sch {
+  display: inline-block; 
+  margin-left: 190px;
+}
+
+.sch1 {
+  display: inline-block;
+  
+}
+
+.sch2 {
+  margin-left: 5px;
+}
+.chb {
+  /* display: inline-block; */
+  position: relative;
+  float: right;
+  width: 20%;
+}
+
+.port-top {
+  height: 90px;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  border-top: none;
+}
+.tb {
+  border: 1px solid #202024;
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+  background: grey;
+  margin-bottom: 10px;
+  
+}
+td {
+  padding: 0;
+}
+tr .tr {
+  height: 30px;
+  margin-bottom: 5px;
+  border: 2px solid #202024;
+  border-radius: 25px;
+  background-color: gray;
+}
+
+.tr2 {
+  background-color: #202024;
+}
+.port-top-right {
+  height: 50px;
+  width: 65%;
+  margin-right: 50px;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-right: none;
+  border-top: none;
+  float: right;
+}
+
+table , tr {
+  border: 10px solid #202024;
+  border-radius: 25px;
+  
+  color: white;
+  padding: 5px;
+}
+.port-top-right-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  background: #4500FF;
+
+}
+
+.tb1 {
+  background: #202024;
+}
+
+.avaliable-balance {
+  height: 90px;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.da-top {
+  height: 90px;
+  margin-top: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  border-top: none;
+}
+.stablecoin{
+  height: 25px;
+  width: 125px;
+  background: #ff00ff ;
+  border-radius: 5px;
+  color: white;
+}
+
+.mature-crypto {
+  height: 25px;
+  width: 125px;
+  background: #067be9 ;
+  border-radius: 5px;
+  color: white;
+}
+
+.altcoin{
+  height: 25px;
+  width: 125px;
+  background: #03ef5e ;
+  border-radius: 5px;
+  color: white;
+}
+
+tr .tr1{
+  padding-left: 0;
+  margin-left: 0;
+}
