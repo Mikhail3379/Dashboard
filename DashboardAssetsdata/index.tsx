@@ -13,10 +13,10 @@ import { userPortfolioLayout } from "../LayoutPortfolios/UserPortfolioLayout";
 import AddStep from "../../components/CreationAssetSteps/AddStep";
 import type { IData, IGroupedData } from "./types";
 import { BarChart } from "./BarChart";
-// import {Tabs} from "./Tabs";
+
 import * as echarts from 'echarts';
 
-// import ReactEcharts from "echarts-for-react"; 
+
 import ReactECharts from 'react-echarts-resizable';
 import {
   Chart,
@@ -365,41 +365,10 @@ export default function DashboardAssetsdata() {
     ]
   }; 
 
-  
-
- 
-
   const renderPortfolioItems = () => {
     if (options.length === 0) {
       return (
-     
-        // <div id="div-btn">
-        
-        //   <p className="noDataMessage">participate in your first portfolio</p>;
-        //   <button className="btn2" onClick={goToPortfolioPage} ><span className="text-btn2">Go to Portfolio Page</span></button>
-        // </div>
-        //   <div className="AddStepComponent">
-        //     {/*  <select name="sort" id="sort" className="rt-select sort">
-        //   <option selected disabled hidden>
-            
-        //   </option>
-        //   <option value="">option 1</option>
-        //   <option value="">option 2</option>
-        // </select> */}
-        //     {/* <input
-        //       type="text"
-        //       name="search"
-        //       className="sr-input search"
-        //       placeholder="Search"
-        //       // onChange={handleChange}
-        //     /> */}
-        //    
-        //   </div>
-  
-     
-   
- 
-  <div >
+      <div >
   <Tabs >
       <Tab title="Overview"><Overview/></Tab>
       <Tab title="Portfolios"><Portfolios/></Tab>
